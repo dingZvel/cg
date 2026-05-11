@@ -17,6 +17,10 @@ This repository showcases four major assignments:
 ### Introduction
 This project implements advanced texturing and reflection techniques on 3D geometric primitives using OpenGL shaders. The scene consists of a skybox representing an infinitely far environment, alongside two focal objects: a brick cube utilizing normal mapping for surface details, and a wooden cube featuring procedurally generated hemispherical mirrors that dynamically reflect the surrounding skybox.
 
+### Demo
+
+https://github.com/user-attachments/assets/a7439462-9a99-46ac-ab57-6c726a52d760
+
 ### Technologies & Algorithms
 * **Languages & APIs:** C++, OpenGL, GLSL (Fragment/Vertex Shaders)
 * **Algorithms & Techniques:**
@@ -36,6 +40,10 @@ This project implements advanced texturing and reflection techniques on 3D geome
 
 ### Introduction
 This assignment focuses on real-time shadow generation and light projection. The program renders a scene as if it is illuminated by a projector casting an image. It implements a multi-pass rendering pipeline to generate shadows and filter them to produce smooth, realistic edges rather than hard, pixelated boundaries.
+
+### Demo
+
+https://github.com/user-attachments/assets/f3750147-54a4-467f-aee7-0457eaea25a1
 
 ### Technologies & Algorithms
 * **Languages & APIs:** C++, OpenGL, GLSL
