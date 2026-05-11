@@ -85,9 +85,9 @@ Implemented entirely within a fragment shader, this assignment builds a complete
 This project implements an offline global illumination solver based on the Progressive Refinement Radiosity algorithm. Unlike local illumination models, radiosity computes the transfer of diffuse light energy between all surfaces in a scene, naturally simulating effects like color bleeding and soft area shadows. The provided software reads a scene model (like the Cornell Box), subdivides it into "shooter" and "gatherer" patches, and progressively distributes light until convergence.
 
 ### Demo
-[cornell_box_1](./assign4_(win-vs2017)/cornell_box_1.png)
-[cornell_box_2](./assign4_(win-vs2017)/cornell_box_2.png)
-[cornell_box_3](./assign4_(win-vs2017)/cornell_box_3.png)
+![cornell_box_1](./assign4_(win-vs2017)/cornell_box_1.png)
+![cornell_box_2](./assign4_(win-vs2017)/cornell_box_2.png)
+![cornell_box_3](./assign4_(win-vs2017)/cornell_box_3.png)
 
 ### Technologies & Algorithms
 * **Languages & APIs:** C/C++, Legacy OpenGL (1.1), GLU/GLUT
@@ -102,4 +102,3 @@ This assignment contains three separate build targets within the `assign4.sln` (
 1.  **QuadsViewer:** Run this to preview the input scene geometry (`model.in`) and verify the subdivision of quads.
 2.  **RadiositySolver:** Ensure your target scene is named `model.in`. Run this target to compute the radiosity solution. Warning: Depending on patch density, this may take a while. It will output a solved scene file named `model.out`.
 3.  **RadiosityViewer:** Run this target to load `model.out` and visualize the final globally illuminated scene.
-
